@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_menu_menu_links",
+  "info": {
+    "name": "menuLink",
+    "icon": "share"
+  },
+  "options": {},
+  "attributes": {
+    "link": {
+      "type": "string",
+      "required": true
+    },
+    "text": {
+      "type": "string",
+      "required": true,
+      "maxLength": 150,
+      "minLength": 3
+    },
+    "newTab": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    }
+  }
+}
